@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html PUBLIC>
+<html>
+<head>
+    <title>TEXAC</title>
+    <meta charset="utf-8">
+    <!-- <link rel="shortcut icon" href="images/rehousemin.jpg" type="image/jpg"> -->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ГЛАВНЫЙ СЛАЙДЕР -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jcarousellite_1.0.1c5.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#slidebox').jCarouselLite({
+                vertical: false,
+                hoverPause: true,
+                btnPrev: ".previous",
+                btnNext: ".next",
+                visible: 1,
+                start: 0,
+                scroll: 1,
+                circular: true,
+                auto: 6000,
+                speed: 900,
+                btnGo:
+				[".1", ".2",
+				".3", ".4"],
+
+                afterEnd: function (a, to, btnGo) {
+                    if (btnGo.length <= to) {
+                        to = 0;
+                    }
+                    $(".thumbActive").removeClass("thumbActive");
+                    $(btnGo[to]).addClass("thumbActive");
+                }
+            });
+        });
+    </script>
+    <!-- TO TOP -->
+    <script> 
+        $(function() {   
+        $(window).scroll(function() {    
+        if($(this).scrollTop() != 0) {   
+        $('#toTop').fadeIn();    
+        } else {     
+        $('#toTop').fadeOut();   
+        }    
+        });  
+        $('#toTop').click(function() {   
+        $('body,html').animate({scrollTop:0},800);   
+        });  
+        }); 
+    </script>
+
+
+</head>
+<body>
+    <div class="container" id="container">
+
+<div id="slidebox">
+     <div class="textinslider">
+        <div class="logo">
+            <a href="index.html" id=""><img src="images/logo.png" width="139"></a>
+        </div>
+        <div class="navigation">
+                <ol>
+                    <li><a href="#" id="">Главная</a></li>
+                    <li><a href="lazertag.html" id="">Лазертаг</a></li>
+                    <li><a href="#" id="">Меню(Доставка)</a></li>
+                    <li class="sauna"><a href="#" id="">Сауна</a></li>
+                    <li><a href="#" id="">Кафе/Банкетный зал/Караоке</a></li>                
+                    <li><a href="#" id="">Гостиница</a></li> 
+                    <li class="last"><a href="#" id="">Корзина</a></li>
+                </ol>      
+        </div>
+        <div class="textslide">
+                <div class="h2">
+                    <h2>Центр отдыха и развлечений</h2>
+                </div>  
+                <div class="h1">
+                    <h1>ТЕХАС</h1>
+                </div>
+                <div class="h3">
+                    <h2>Выбери своего героя</h2>
+                </div>
+        </div>
+
+
+        <div class="streak">  
+        </div>  
+    </div>
+            <div class="next"></div>
+            <div class="previous"></div>
+            <div class="thumbs">
+                <a href="#" onclick="" class="1 thumbActive" id="a"></a>
+                <a href="#" onclick="" class="2" id="b"></a> 
+                <a href="#" onclick="" class="3" id="c"></a> 
+                <a href="#" onclick="" class="4" id="d"></a> 
+            </div>
+            <ul class="listofimg">
+                <li><img src="images/slider1.jpg" width="1366px" height="653px"></li>
+                <li><img src="images/slider2.png" width="1366px" height="653px"></li>
+                <li><img src="images/slider3.png" width="1366px" height="653px"></li>
+                <li><img src="images/slider1.jpg" width="1366px" height="653px"></li>
+            </ul>
+</div>
+
+<div class="advantages">
+<div class="h3"><h3>Почему именно <span>Техас </span><span class="vopros">?</span></h3></div>
+    <div class="elements">
+        <div class="element1">
+            <img src="images/1element.png">
+            <h4>Отличная возможность отдохнуть</h4>
+            <p>Прекрасная возможность отдохнуть после рабочего дня, приятно провести вечер.</p>
+        </div>
+        <div class="element2">
+            <img src="images/2element.png">
+            <h4>Приятная атмосфера</h4>
+            <p>Это легкая непринужденная атмосфера</p>
+        </div>
+        <div class="element3">
+            <img src="images/3element.png">
+            <h4>Прекрасный интерьер</h4>
+            <p>Высококлассный интерьер, сервис и уют</p>
+        </div>
+    </div>
+</div>
+
+<div class="about_us">
+    <div class="text">
+        <h3>Центр отдыха и развлечений ТЕХАС</h3>
+        <p>500 кв.м. стилизованного игрового пространства в стиле вестерн Техаса.Центр отдыха и развлечений «Техас» для детей и взрослых приглашает желающих окунуться в мир дикого Запада, где почувствуешь себя ковбоем. У нас в «Техас» Вы отдохнёте вместе с друзьями и детьми, сможете отметить Дни Рождения и знаменательные даты. Вас встретят с радостью сотрудники этого заведения и порадуют кулинарными способностями. Взрослых и детей заворожит антураж заведения, особенно детей, которые в наше время хотят почувствовать себя ловкими, сильными, меткими стрелками. Лазертаг не оставит равнодушным никого. Центр отдыха гарантирует Вам гармонию во всем и со всеми. Сервис заведения не навязчив, мы сделаем Ваше прибывание у нас запоминающимся и комфортным. Также в «Техасе» можно сменить обстановку: отдохнуть и расслабиться в сауне, и тут же для гостей города-переночевать в уютной гостинице. Те, кто уже был у нас и остался доволен кухней, развлекательной программой для детей, рекомендуют друзьям и знакомым побывать в атмосфере «Техаса» по знаменательному поводу, да и просто так, чтобы быть хоть на время отвлечённым от суеты. Клуб отдыха и развлечений «Техас» для взрослых и детей приглашает Вас поесть, попить, повеселиться и, конечно, «пристреляться» в Лазертаг!</p>
+    </div>
+    <div class="video_youtube">
+        <iframe width="612" height="405" src="https://www.youtube.com/embed/pP9YV_P6WsM" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div id="toTop"></div>
+        <div class="logo2">
+            <a href="index.html" id=""><img src="images/logo.png" width="139"></a>
+        </div>
+        <div class="navigation">
+                <ol>
+                    <li><a href="#" id="">Главная</a></li>
+                    <li><a href="#" id="">Лазертаг</a></li>
+                    <li><a href="#" id="">Меню(Доставка)</a></li>
+                    <li class="sauna"><a href="#" id="">Сауна</a></li>
+                    <li><a href="#" id="">Кафе/Банкетный зал/Караоке</a></li>                
+                    <li><a href="#" id="">Гостиница</a></li> 
+                    <li class="last"><a href="#" id="">Корзина</a></li>
+                </ol>      
+        </div>
+            <div class="social">
+                <div class="divs"><a href="#" class="fb"></a></div>
+                <div class="divs"><a href="#" class="yt"></a></div>
+                <div class="divs"><a href="#" class="gmail"></a></div>
+                <div class="divs"><a href="#" class="vk"></a></div>
+            </div>
+        </div>
+</div>
+</body>
+</html>

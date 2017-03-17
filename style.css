@@ -289,6 +289,7 @@ body a {
  	border-top: 2px solid white;
  	height: 182px;
  	position: relative;
+ 	min-width: 1366px;
 }
 .social {
 	display: flex;
@@ -366,9 +367,9 @@ body a {
 	left: 45%;
 	z-index: 10000;
 }
-
 .header {
 	width: 100%;
+	min-width: 1366px;
 	height: 153px;
 	background-image: url('images/bg_header.jpg');
 	background-repeat: no-repeat;
@@ -422,7 +423,6 @@ body a {
 	background-size: cover;
 }
 
-
 .gallery {
 	max-width: 873px;
 	width: 100%;
@@ -453,7 +453,6 @@ body a {
  	margin-top:25px;
  	margin-bottom:18px;
 }
-
 .information_topic {
 	min-width: 1366px;
 	text-align: justify;
@@ -466,15 +465,65 @@ body a {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
-
 .information_topic p {
 	color: #d6b17c;
 	font-family: Arial;
 	font-size: 12px;
 	font-weight: bold;
 	line-height: 18px;
-
 	margin-bottom:42px;
+}
+
+.list_of_prod table {
+	width: 875px;
+	height: 97px;
+	border-bottom: 4px solid #cc9549;
+
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.list_of_prod table tr.head {
+	background-color: #cc9549;
+	height: 33px;
+
+	color: #ffffff;
+	font-family: "Decree Art One";
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.list_of_prod table td {
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 9px;
+}
+.list_of_prod table tr.prod {
+	color: #c85634;
+	font-family: "Decree Art One";
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.list_of_prod table tr.prod img {
+	object-fit: cover;
+}
+.list_of_prod table tr.prod input {
+    width: 40px;
+    height: 18px;
+    color: #c85634;
+    border: 1px solid #c85634;
+    font-family: "Decree Art One";
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-left: 5px;
+}
+.sum table {
+	width: 670px;
+	height: 33px;
+	margin-right: 245px;
+	margin-bottom: 78px;
 }
 
 
@@ -485,12 +534,7 @@ body a {
 
 
 
-
-
-
-
-
-#toTop {
+/*#toTop {
 	width:30px;
 	height: 30px;	
 	padding:10px;
@@ -507,7 +551,7 @@ body a {
 #toTop:hover {
 	background-image: url('images/totop_hover.png');
 	background-repeat: no-repeat;
-}
+}*/
 
 
 

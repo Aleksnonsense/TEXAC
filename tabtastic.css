@@ -1,5 +1,9 @@
 #pagecontent h3, h2, select {
 	font-size: 16px;
+	color: black;
+	font-family: Arial;
+	margin-top: 5px;
+	margin-bottom: 2px;
 }
 .headline h2 {
 	font-size: 18px;
@@ -367,4 +371,60 @@ table.added .edit_del {
 
 	margin-bottom: 8px;
 	margin-left: 436px;
+}
+
+
+
+.header_admin {	
+	width: 600px;
+	border: 1px solid black;
+	margin-top: 53px;
+	margin-left: 68px;
+	margin-bottom: 68px;
+	padding: 10px;
+}
+
+#adminka2 .add_new {
+	margin-top: 8px;
+}
+#adminka2 .add_new div {
+	margin-bottom: 5px;
+}
+.add_photo .photo1,
+.photo2,
+.photo3 {
+	display:flex;
+	flex-direction:row;
+}
+.add_photo  div {
+	margin-bottom: 10px;
+}
+.add_photo {
+	margin-top: 8px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	padding: 10px;
+}
+.add_photo  img {
+	margin-right: 7px;
+}
+select.added_select {
+	width: 300px;
+}
+input._cost_ {
+	width: 300px;
+}
+textarea {
+	width: 600px;
+}
+input.youtube-video {
+	width: 300px;
+	margin-top:10px;
+}
+.add_video p.yt {
+	color: black;
+	font-family: Arial;
+	font-size: 16px;
+	margin-top: 2px;
+
 }

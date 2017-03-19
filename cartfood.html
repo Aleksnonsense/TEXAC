@@ -129,6 +129,31 @@
 </table>
 
 
+<div class="form_order">
+            <form id="application" action="#" method="POST"  name=" application ">
+
+                    <h3>Имя</h3>
+                <input name="name" id="applicationName" maxlength="25" placeholder="" required />
+                    <h3>Email</h3>
+                <input name="email" type="email" id="applicationEmail" maxlength="35" placeholder="" required />
+                    <h3>Телефон</h3>
+                <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="" required/>
+
+               <!--  <input type=»tel» pattern="+3\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" name=»phone» placeholder=»(050)121-34-57″ title=»Формат ввода (050) 121-34-57″ required/> -->
+                
+            <h3>Комментарий к заказу</h3>
+                <p><textarea rows="5" cols="45" name="text" id="applicationText" placeholder="" required/></textarea></p>
+
+            <div class="checkbox">
+                <input type="checkbox"><label class="check" for="checkbox">Банкет</label>
+                <input type="checkbox"><label class="check" for="checkbox">Доставка</label>
+            </div>
+                <button class="applicationButton" type="submit" form="application">Заказать</button>
+            </form>
+    
+    </div>   
+
+
 
 
 

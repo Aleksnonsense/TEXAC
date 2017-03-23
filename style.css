@@ -7,7 +7,7 @@ body {
 	padding:0;
 	height: cover;
 }
-body a {
+body a, button {
 	cursor: pointer;
 }
 .container {
@@ -295,7 +295,7 @@ body a {
 	color: #252525;
 	font-size: 18px;
 	line-height: 24px;
-	font-family: "Decree Art One";
+	font-family: "Arial";
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-align: justify;
@@ -457,6 +457,10 @@ body a {
 	margin-left: 14px;
 	margin-bottom: 14px;
 }
+.gallery .h2 {
+	max-width: 873px;
+	text-align: center;
+}
 .video_youtube1 {
 	margin-left: 246px;
 	margin-top: 35px;
@@ -600,6 +604,18 @@ box-sizing: border-box;
 .form_order form h3 {
 	margin-top: 12px;
 	margin-bottom: 6px;
+}
+.form_order form h5 {
+	margin-top: 5px;
+
+	color: red;
+	font-family: Arial;
+	font-size: 12px;
+	text-transform: none;
+
+}
+.form_order form button:hover {
+	color: #c85634;
 }
 .form_order form input {
 	/*width: 200px;*/

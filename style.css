@@ -543,9 +543,9 @@ body a, button {
 .information_topic p {
 	color: #d48b24;
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: bold;
-	line-height: 18px;
+	line-height: 20px;
 	margin-bottom:42px;
 }
 
@@ -768,7 +768,7 @@ box-sizing: border-box;
 	margin-bottom: 5px;
 }
 .gallery .appendix_lazertag {
-	width: 250px;
+	width: 290px;
 	padding: 10px;
 	border: 1px solid #d48b24;
 	border-radius: 10px;

@@ -548,6 +548,9 @@ body a, button {
 	font-weight: bold;
 	line-height: 20px;
 	margin-bottom:42px;
+	    width: 1000px;
+    margin-left: 183px;
+    text-indent: 30px;
 }
 
 .list_of_prod table {

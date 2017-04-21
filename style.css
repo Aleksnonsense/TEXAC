@@ -221,7 +221,7 @@ body a, button {
  }
  .textslide h2 {
  	color: #cdb18f;
-	font-size: 62px;
+	font-size: 60px;
  }
   .textslide h1 {
 	color: #ffffff;
@@ -249,7 +249,7 @@ body a, button {
 	letter-spacing: 3px;
  }
 .advantages .h3{
-	padding-top: 35px;
+	padding-top: 19px;
 	padding-left: 910px;
 }
  .advantages h3 span {
@@ -324,7 +324,7 @@ body a, button {
 	font-weight: bold;
 	color: #231105;
 	font-size: 48px;
-	line-height: 30px;
+	line-height: 40px;
 	margin-bottom: 30px;
 }
 .about_us .text p {

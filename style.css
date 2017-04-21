@@ -959,8 +959,20 @@ margin-left: 48%;
 	background-image: url('images/totop_hover.png');
 	background-repeat: no-repeat;
 }*/
-
-
+.textslide {
+	position: relative;
+}
+.textslide .tel_number {
+	    position: absolute;
+	    top: -153px;
+	    left: 750px;
+	    width: 210px;
+}
+.textslide .tel_number p {
+	color: white;
+	font-size: 15px;
+	font-family: Arial;
+}
 
 
 

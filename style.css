@@ -221,7 +221,7 @@ body a, button {
  }
  .textslide h2 {
  	color: #cdb18f;
-	font-size: 62px;
+	font-size: 60px;
  }
   .textslide h1 {
 	color: #ffffff;
@@ -249,7 +249,7 @@ body a, button {
 	letter-spacing: 3px;
  }
 .advantages .h3{
-	padding-top: 35px;
+	padding-top: 19px;
 	padding-left: 910px;
 }
  .advantages h3 span {
@@ -324,7 +324,7 @@ body a, button {
 	font-weight: bold;
 	color: #231105;
 	font-size: 48px;
-	line-height: 30px;
+	line-height: 40px;
 	margin-bottom: 30px;
 }
 .about_us .text p {
@@ -441,7 +441,7 @@ body a, button {
     max-width: 538px;
     border-bottom: 1px dashed #888888;
     margin-left: 159px;
-    margin-top: 93px;
+    margin-top: 25px;
 }
 .way {
 	display: -webkit-flex;
@@ -548,9 +548,6 @@ body a, button {
 	font-weight: bold;
 	line-height: 20px;
 	margin-bottom:42px;
-	    width: 1000px;
-    margin-left: 183px;
-    text-indent: 30px;
 }
 
 .list_of_prod table {
@@ -940,6 +937,9 @@ margin-left: 48%;
     padding: 4px;
     background: none;
 }
+.form_comment .comment {
+	width: 1366px;
+}
 
 /*#toTop {
 	width:30px;
@@ -959,11 +959,37 @@ margin-left: 48%;
 	background-image: url('images/totop_hover.png');
 	background-repeat: no-repeat;
 }*/
+.textslide {
+	position: relative;
+}
+.textslide .tel_number {
+	    position: absolute;
+	    top: -153px;
+	    left: 750px;
+	    width: 210px;
+}
+.textslide .tel_number p {
+	color: white;
+	font-size: 15px;
+	font-family: Arial;
+}
+.tel_number1 {
+	      background-color: rgba(219, 177, 105, 0.6);
+	      text-align: center;
+	    
+}
+.tel_number1 p {
+	color: #231105;
+	font-size: 19px;
+	font-family: Arial;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
 
-
-
-
-
-
+.shtab {
+	position: absolute;
+	top: -145px;
+    left: -345px;
+}
 
 
